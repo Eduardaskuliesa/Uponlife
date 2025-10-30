@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import "tailwindcss";
 
 * {
@@ -6,8 +7,14 @@
   padding: 0;
 }
 
+body {
+  font-family: var(--font-inter);
+}
+
 @theme {
   --color-primary: #294435;
+  --color-secondary: #DD983E;
+  --font-inter: Inter, Arial, sans-serif;
 }
 
 @keyframes scroll {
@@ -15,7 +22,7 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-50% - 20px));
+    transform: translateX(calc(-50% - 28px));
   }
 }
 

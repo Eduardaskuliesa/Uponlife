@@ -1,10 +1,10 @@
-import TopAnnouncementBanner from "./components/TopAnnouncementBanner";
+import HeroSection from "./components/HeroSection";
+
 
 function App() {
-
   return (
     <>
-      <TopAnnouncementBanner />
+      <HeroSection />
     </>
   );
 }

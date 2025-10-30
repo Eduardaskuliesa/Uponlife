@@ -15,13 +15,13 @@ const announcementData = [
 
 const TopAnnouncementBanner = () => {
   return (
-    <div className="w-full h-8 flex bg-primary text-white overflow-hidden">
-      <div className="flex infinite-scroll flex-nowrap h-full gap-5 items-center whitespace-nowrap">
+    <div className="w-full font-family-primary h-8 flex bg-primary text-white overflow-hidden absolute top-0 left-0">
+      <div className="flex infinite-scroll flex-nowrap h-full gap-7 items-center whitespace-nowrap">
         {Array(5)
           .fill(announcementData)
           .flat()
           .map((announcement, index) => (
-            <span key={index} className="text-sm">
+            <span key={index} className="text-sm font-light">
               {announcement.message.toUpperCase()}
             </span>
           ))}
