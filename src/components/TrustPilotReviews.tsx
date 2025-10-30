@@ -11,15 +11,15 @@ const TrustPilotReviews = () => {
 
   return (
     <div className="flex gap-3 items-center">
-      <span className="text-white underline underline-offset-3">
+      <span className="text-white underline underline-offset-3 text-sm sm:text-base">
         {getReviewText(REVIEW_RATING)}
       </span>
       <img
         alt="trustpilot-reviews"
-        className="h-5"
+        className="h-4 sm:h-5"
         src="/trustpilot-star-reviews.png"
       />
-      <img className="h-22" alt="trustpilot-logo" src="/trustpilot-logo.png" />
+      <img className="h-18 sm:h-22" alt="trustpilot-logo" src="/trustpilot-logo.png" />
     </div>
   );
 };

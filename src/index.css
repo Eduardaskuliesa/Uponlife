@@ -3,8 +3,6 @@
 
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 body {
@@ -13,8 +11,12 @@ body {
 
 @theme {
   --color-primary: #294435;
-  --color-secondary: #DD983E;
+  --color-secondary: #dd983e;
+  --color-secondary-dark: #b0894e;
+
   --font-inter: Inter, Arial, sans-serif;
+
+  --breakpoint-xs: 520px;
 }
 
 @keyframes scroll {
